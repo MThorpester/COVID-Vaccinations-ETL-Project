@@ -1,1 +1,1 @@
-# COVID-Vaccines-in-US---ETL-Project
+# COVID-Vaccinations-ETL-Project
