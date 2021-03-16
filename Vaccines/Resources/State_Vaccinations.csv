@@ -1,4 +1,4 @@
-State,Date,people_fully_vaccinated,people_fully_vaccinated_per_hundred,daily_vaccinations,daily_vaccinations_per_million
+state_name,date_administered,people_fully_vaccinated,people_fully_vaccinated_per_hundred,daily_vaccinations,daily_vaccinations_per_million
 Alabama,1/12/2021,7270,0.15,0,0
 Alabama,1/13/2021,9245,0.19,5906,1205
 Alabama,1/15/2021,13488,0.28,7478,1525
