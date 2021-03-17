@@ -21,6 +21,16 @@ CREATE TABLE US_vaccinations (
 	PRIMARY KEY(date_administered)
 );
 
+CREATE TABLE state_cases_deaths (
+	submission_date DATE,
+	state_name VARCHAR(35),
+	tot_cases INTEGER,
+	new_cases INTEGER,
+	tot_deaths INTEGER,
+	new_deaths INTEGER,
+	PRIMARY KEY(submission_date, state_name)
+);
+
 SELECT * FROM state_vaccinations LIMIT 100;
 SELECT DISTINCT(state_name) from state_vaccinations;
 SELECT COUNT(*) FROM US_vaccinations;
