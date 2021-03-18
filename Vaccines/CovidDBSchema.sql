@@ -1,5 +1,6 @@
 DROP TABLE IF EXISTS state_vaccinations;
 DROP TABLE IF EXISTS US_vaccinations;
+DROP TABLE IF EXISTS state_cases_deaths;
 
 CREATE TABLE state_vaccinations (
 	state_name VARCHAR(35),
@@ -36,3 +37,5 @@ SELECT DISTINCT(state_name) from state_vaccinations;
 SELECT COUNT(*) FROM US_vaccinations;
 SELECT DISTINCT(date_administered) from US_vaccinations;
 SELECT * FROM US_vaccinations;
+SELECT * FROM state_cases_deaths LIMIT 100;
+SELECT DISTINCT(state_name) from state_cases_deaths;
