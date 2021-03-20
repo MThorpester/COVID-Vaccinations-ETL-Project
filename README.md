@@ -39,20 +39,22 @@ Follow these steps to create this local COVID database on your machine.
 
 ### Prerequisites
 
-You will need PostgreSQL, pgAdmin4, Python, Pandas, Jupyter Notebook and SQL Alchemy. 
+You will need PostgreSQL, pgAdmin4, Python, Pandas, Psycopg, Jupyter Notebook and SQL Alchemy. 
 
 ### Steps to follow
 
 1- Ensure all of the software listed above is installed on your machine<br>
-2- Run these SQL DDL commands from pgADMIN4 to create the empty database:
+2- Start up and/or connect to a local PostgreSQL server in pgAdmin, and create a new database called "COVID".
+3- Run these SQL DDL commands from pgAdmin to create the empty database:
 ```
 COVID-ETL/CovidDBSchema.sql
 ```
-3- Run this Jupyter notebook to extract, transform and load the data to the database:
+4- Run this Jupyter notebook to extract, transform and load the data to the database:
 
 ```
 COVID-ETL/COVID-Data-ETL.ipnyb
 ```
+
 
 
 

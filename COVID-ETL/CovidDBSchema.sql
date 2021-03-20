@@ -32,10 +32,11 @@ CREATE TABLE state_cases_deaths (
 	PRIMARY KEY(submission_date, state_name)
 );
 
-SELECT * FROM state_vaccinations LIMIT 100;
-SELECT DISTINCT(state_name) from state_vaccinations;
-SELECT COUNT(*) FROM US_vaccinations;
-SELECT DISTINCT(date_administered) from US_vaccinations;
-SELECT * FROM US_vaccinations;
-SELECT * FROM state_cases_deaths LIMIT 100;
-SELECT DISTINCT(state_name) from state_cases_deaths;
+-- These Queries can be run To verify that tables have been properly populated after running ETL process:
+-- SELECT * FROM state_vaccinations LIMIT 100;
+-- SELECT DISTINCT(state_name) from state_vaccinations;
+-- SELECT COUNT(*) FROM US_vaccinations;
+-- SELECT DISTINCT(date_administered) from US_vaccinations;
+-- SELECT * FROM US_vaccinations;
+-- SELECT * FROM state_cases_deaths LIMIT 100;
+-- SELECT DISTINCT(state_name) from state_cases_deaths;
