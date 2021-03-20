@@ -30,9 +30,8 @@ The DB consists of 3 tables:
 - US_vaccinations
 - state_cases_deaths
 
-<img src="\COVID-ETL\COVID_DB_ERD.png" alt="COVID DB ERD" style="height: 100px; width:100px;"/>
+![COVID DB Entity Relationship Diagram ](https://github.com/MThorpester/COVID-Vaccinations-ETL-Project/blob/main/COVID-ETL/COVID_DB_ERD.png)
 
-https://github.com/MThorpester/COVID-Vaccinations-ETL-Project/blob/main/COVID-ETL/COVID_DB_ERD.png
 
 ## Getting Started
 
