@@ -44,7 +44,7 @@ You will need PostgreSQL, pgAdmin4, Python, Pandas, Psycopg, Jupyter Notebook an
 ### Steps to follow
 
 1- Ensure all of the software listed above is installed on your machine<br>
-2- Start up and/or connect to a local PostgreSQL server in pgAdmin, and create a new database called "COVID".
+2- Start up and/or connect to a local PostgreSQL server in pgAdmin, and create a new database called "COVID".<br>
 3- Run these SQL DDL commands from pgAdmin to create the empty database:
 ```
 COVID-ETL/CovidDBSchema.sql
